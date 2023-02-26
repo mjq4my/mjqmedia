@@ -15,7 +15,6 @@ const App = () => {
         <Experience />
         <Contact />
         <Footer />
-        <Footer />
     </>
   )
 }
