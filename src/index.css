@@ -20,7 +20,7 @@
 :root {
   --color-bg: #d0981f;
   --color-bg-variant: #2d2d43;
-  --color-primary: #1f1f38;
+  --color-primary: #bfbfbf;
   --color-primary-variant: #1f1f38;
   --color-white: #fff;
   --color-black: black;
@@ -69,6 +69,7 @@ h1 {
 
 section {
   margin-top: 8rem;
+  height: 100vh
 }
 
 section > h2, section > h5 {
