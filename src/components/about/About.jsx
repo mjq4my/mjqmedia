@@ -1,6 +1,9 @@
 import React from 'react'
 import './about.css'
 import headshot from '../../images/grandcanyon01.jpeg'
+import {MdWork} from 'react-icons/md'
+import {HiMusicNote} from 'react-icons/hi'
+import {GrYoutube} from 'react-icons/gr'
 
 const About = () => {
   return (
@@ -12,6 +15,30 @@ const About = () => {
         <div className='about_me'>
           <div className='about_me-image'>
             <img src={headshot} alt="About Image" />
+          </div>
+        </div>
+
+        <div className='about_content'>
+          <div className='about_cards'>
+
+            <article className='about_card'>
+              <MdWork className='about_icon'/>
+              <h5>Experience</h5>
+              <small>Under Construction</small>
+            </article>
+
+            <article className='about_card'>
+              <HiMusicNote className='about_icon'/>
+              <h5>Music Blog</h5>
+              <small>Under Construction</small>
+            </article>
+
+            <article className='about_card'>
+              <GrYoutube className='about_icon'/>
+              <h5>YouTube</h5>
+              <small>Under Construction</small>
+            </article>
+
           </div>
         </div>
 
