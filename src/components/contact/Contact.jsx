@@ -3,8 +3,26 @@ import './contact.css'
 import {MdEmail} from 'react-icons/md'
 import {FaFacebookMessenger} from 'react-icons/fa'
 import {BsFillTelephoneFill} from 'react-icons/bs'
+import { useRef } from 'react'
+import emailjs from 'emailjs-com'
 
 const Contact = () => {
+  // ###### EMAIL SENDING PART USING EMAIL.JS ######
+  const form = useRef();
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_3bzb1e6', 'template_htsv8n2', form.current, 'u9rQ7_p0VghYknAqa')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+
+    e.target.reset()
+  };
+
+  // ###### CONTACT BOXES AND FORM ######
   return (
     <section id='contact'>
       <h5>Get in Touch</h5>
@@ -35,7 +53,7 @@ const Contact = () => {
 
         </div>
 
-        <form action="">
+        <form ref={form} onSubmit={sendEmail}>
           <input type ="text" name='name' placeholder='Your Name' required></input>
           <input type ="email" name='email' placeholder='Your Email' required></input>
           <textarea name ="message" rows='7' placeholder='Your Message' required></textarea>

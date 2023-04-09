@@ -3,7 +3,7 @@ import './nav.css'
 import {ImHome3} from 'react-icons/im'
 import {FaUser} from 'react-icons/fa'
 import {RiMailSendLine} from 'react-icons/ri'
-import { useState } from 'react'
+import {useState} from 'react'
 
 const Nav = () => {
   // ##### this is for setting the active nav section as a class and thus colorizing it, etc. #####

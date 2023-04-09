@@ -35,3 +35,38 @@
     display: inline-block;
     font-size: 1rem;
 }
+
+/* ############ FORM ############ */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    border-color: white;
+    background: transparent;
+    border: 3px solid var(--color-primary);
+    resize: none;
+    color: grey;
+    font-family: Monospace;
+}
+
+/* ############# MEDIA QUERIES (MEDIUM DEVICES e.g. tablets) ############# */
+@media screen and (max-width: 1024px) {
+    .container.contact_container {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+}
+
+
+/* ############# MEDIA QUERIES (SMALL DEVICES e.g. phones) ############# */
+@media screen and (max-width: 600px) {
+    .container.contact_container {
+        width: var(--container-width-sm);
+    }
+}

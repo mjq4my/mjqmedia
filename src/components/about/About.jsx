@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import headshot from '../../images/grandcanyon01.jpeg'
+import headshot from '../../images/mq_antarctica.jpeg'
 import {MdWork} from 'react-icons/md'
 import {HiMusicNote} from 'react-icons/hi'
 import {GrYoutube} from 'react-icons/gr'

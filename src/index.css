@@ -18,7 +18,7 @@
 
  /* ############# The CSS vars we will use throughout †he project ############# */
 :root {
-  /* BLACK / GOLD COLORS  */
+  /* ####### BLACK / GOLD COLORS ####### */
   /* --color-bg: #d0981f;
   --color-bg-variant: #3c3c3c;
   --color-primary: #bfbfbf;
@@ -28,11 +28,11 @@
   --color-grey: grey; */
 
 
-  /* BLUE COLORS  */
-  --color-bg: #0015f7;
+  /* ####### BLUE COLORS #######  */
+  --color-bg: #000ea6;
   --color-bg-variant: #8b8ad7bf;
-  --color-primary: #bfbfbf;
-  --color-primary-variant: #1f1f38;
+  --color-primary: #afbcff;
+  --color-primary-variant: #080898;
   --color-white: #fff;
   --color-black: black;
   --color-grey: grey;
@@ -109,7 +109,7 @@ a:hover {
   padding: 0.75rem 1.2rem;
   border-radius: 0.4rem;
   cursor: pointer;
-  border: 2px solid var(--color-black);
+  border: 2px solid var(--color-bg-variant);
   /* background-color: var(--color-black); */
 }
 
@@ -117,12 +117,14 @@ a:hover {
   background: var(--color-white);
   color: var(--color-bg);
   border-color: transparent;
-  border: 2px solid var(--color-black);
+  border: 2px solid var(--color-bg-variant);
+  transition: var(--transition);
 }
 
 .btn-primary {
-  background-color: var(--color-black);
+  background-color: var(--color-bg-variant);
   color: var(--color-bg);
+  transition: var(--transition);
 }
 
 img {
