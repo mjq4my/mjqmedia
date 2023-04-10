@@ -5,6 +5,7 @@ import {GrYoutube} from 'react-icons/gr'
 import {BsLinkedin} from 'react-icons/bs'
 import {BsGithub} from 'react-icons/bs'
 import {BsInstagram} from 'react-icons/bs'
+import {GrSpotify} from 'react-icons/gr'
 
 const Footer = () => {
   return (
@@ -19,9 +20,10 @@ const Footer = () => {
       </u1>
 
       <div className="footer_socials">
+        <a href='https://github.com/mjq4my' target="_blank"><BsGithub/></a>
         <a href='https://youtube.com/migsfigs' target="_blank"><GrYoutube/></a>
         <a href='https://instagram.com/vibe.ratingz' target="_blank"><BsInstagram/></a>
-        <a href='https://github.com/mjq4my' target="_blank"><BsGithub/></a>
+        <a href='https://open.spotify.com/user/dreqgjl3eu3oyv6guhunlg39y' target="_blank"><GrSpotify/></a>
         <a href='https://linkedin.com/in/michael-quinn33' target="_blank"><BsLinkedin/></a>
         <a href='https://facebook.com/michael.quinn.921' target="_blank"><FaFacebookSquare/></a>
       </div>
