@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import headshot from '../../images/mq_antarctica.jpeg'
+import me from '../../images/mq_antarctica.jpeg'
 import {MdWork} from 'react-icons/md'
 import {HiMusicNote} from 'react-icons/hi'
 import {GrYoutube} from 'react-icons/gr'
@@ -14,7 +14,7 @@ const About = () => {
       <div className='container about_container'>
         <div className='about_me'>
           <div className='about_me-image'>
-            <img src={headshot} alt="About Image" />
+            <img src={me} alt="About Image" />
           </div>
         </div>
 
@@ -45,10 +45,9 @@ const About = () => {
         <div>
           <p>
             Hello, my name is Michael Quinn and welcome to my personal website!
-            I built this using React and by following online tutorials. I want to
-            showcase my hobbies, as well as use it as a way to get in contact with
-            me. It is always a work in progress, and I hope you find what you're
-            looking for!
+            I built this using React and by following online tutorials. I want to use it
+            to showcase my hobbies, as well as a means for communication. It is always a work
+            in progress, and I hope you find what you're looking for!
           </p>
         </div>
 
