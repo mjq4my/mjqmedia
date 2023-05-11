@@ -21,23 +21,29 @@ const About = () => {
         <div className='about_content'>
           <div className='about_cards'>
 
-            <article className='about_card'>
-              <MdWork className='about_icon'/>
-              <h5>Experience</h5>
-              <small>Under Construction</small>
-            </article>
+            <a href='#experience'>
+              <article className='about_card'>
+                <MdWork className='about_icon'/>
+                <h5>Experience</h5>
+                <small>Click On Me</small>
+              </article>
+            </a>
 
-            <article className='about_card'>
-              <HiMusicNote className='about_icon'/>
-              <h5>Music Blog</h5>
-              <small>Under Construction</small>
-            </article>
+            <a href='https://instagram.com/vibe.ratingz' target="_blank">
+              <article className='about_card'>
+                <HiMusicNote className='about_icon'/>
+                <h5>Music Blog</h5>
+                <small>Click On Me</small>
+              </article>
+            </a>
 
-            <article className='about_card'>
-              <GrYoutube className='about_icon'/>
-              <h5>YouTube</h5>
-              <small>Under Construction</small>
-            </article>
+            <a href='https://youtube.com/migsfigs' target="_blank">
+              <article className='about_card'>
+                <GrYoutube className='about_icon'/>
+                <h5>YouTube</h5>
+                <small>Click On Me</small>
+              </article>
+            </a>
 
           </div>
         </div>
