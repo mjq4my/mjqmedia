@@ -23,7 +23,6 @@
   /* --color-bg-variant: #3c3c3c;
   --color-primary: #bfbfbf;
   --color-primary-variant: #1f1f38;
-  --color-white: #fff;
   --color-black: black;
   --color-grey: grey; */
 
@@ -33,7 +32,6 @@
   --color-bg-variant: #8b8ad7bf;
   --color-primary: #afbcff;
   --color-primary-variant: #0000a4;
-  --color-white: #fff;
   --color-black: black;
   --color-grey: grey;
 
@@ -55,7 +53,7 @@ html {
 body {
   font-family: "Nunito", sans-serif;
   background: var(--color-bg);
-  color: var(--color-white);
+  color: white;
   line-height: 1.7;
   background-image: url(../src/images/background14.jpeg);
 }
@@ -84,7 +82,7 @@ section {
 
 section > h2, section > h5 {
   text-align: center;
-  color: var(--color-white);
+  color: white;
 }
 
 section > h2 {
@@ -98,7 +96,7 @@ section > h2 {
 }
 
 a:hover {
-  color: var(--color-white);
+  color: white;
   transition: var(--transition);
 }
 
@@ -114,7 +112,7 @@ a:hover {
 }
 
 .btn:hover {
-  background: var(--color-white);
+  background: white;
   color: var(--color-bg);
   border-color: transparent;
   border: 2px solid var(--color-bg-variant);

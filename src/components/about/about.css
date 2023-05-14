@@ -59,12 +59,12 @@
 
 .about_card h5{
     font-size: 0.95rem;
-    color: var(--color-white)
+    color: white
 }
 
 .about_card small{
     font-size: 0.7rem;
-    color: var(--color-white)
+    color: white
 }
 
 .about_content {
@@ -75,6 +75,10 @@
 .about_content p {
     margin: 2rem 0 2.6rem;
     color: var(--color-light);
+}
+
+.whoiam {
+    margin: 0 5rem 0;
 }
 
 /* ############# MEDIA QUERIES (MEDIUM DEVICES e.g. tablets) ############# */
