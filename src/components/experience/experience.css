@@ -35,6 +35,15 @@
     gap: 1rem;
 }
 
+.experience_details a{
+    color: white;
+}
+
+.experience_details a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 .experience_details-icon{
     margin-top: 6px;
     color: var(--color-primary);

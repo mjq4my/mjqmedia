@@ -42,7 +42,6 @@ const Experience = () => {
                 <h4>React.js</h4>
               </div>
             </article>
-
           </div>
         </div>
 
@@ -78,13 +77,30 @@ const Experience = () => {
                 <h4>AWS Glue</h4>
               </div>
             </article>
+          </div>
+        </div>
 
+        <div className='experience_certification'>
+          <h3>Certifications</h3>
+          <div className='experience_content'>
+
+            <article className='experience_details'>
+              <HiBadgeCheck className='experience_details-icon'/>
+              <div>
+                <a target="_blank" href='https://www.credly.com/badges/d4c1434d-1f12-4b8b-8d13-86cbfe69f582/public_url'>AWS Certified Solutions Architect – Associate</a>
+              </div>
+            </article>
+
+            <article className='experience_details'>
+              <HiBadgeCheck className='experience_details-icon'/>
+              <div>
+                <a target="_blank" href='https://www.credly.com/badges/7e07a339-ae08-45b6-8f1a-939c43606820/public_url'>AWS Certified Cloud Practitioner</a>
+              </div>
+            </article>
           </div>
         </div>
 
       </div>
-
-
     </section>
   )
 }

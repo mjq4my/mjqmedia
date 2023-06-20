@@ -1,7 +1,8 @@
 import React from 'react'
 import './about.css'
 import me from '../../images/mq_antarctica.jpeg'
-import {MdWork} from 'react-icons/md'
+// import {MdWork} from 'react-icons/md'
+import {ImList2} from 'react-icons/im'
 import {HiMusicNote} from 'react-icons/hi'
 import {GrYoutube} from 'react-icons/gr'
 
@@ -23,7 +24,7 @@ const About = () => {
 
             <a href='#experience'>
               <article className='about_card'>
-                <MdWork className='about_icon'/>
+                <ImList2 className='about_icon'/>
                 <h5>Experience</h5>
                 <small>Click On Me</small>
               </article>

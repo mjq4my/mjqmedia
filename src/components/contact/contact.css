@@ -52,12 +52,8 @@ input, textarea {
     background: transparent;
     border: 3px solid var(--color-primary);
     resize: none;
-    color: grey;
-    font-family: Monospace;
-}
-
-input, textarea:focus{
     color: white;
+    font-family: Monospace;
 }
 
 /* ############# MEDIA QUERIES (MEDIUM DEVICES e.g. tablets) ############# */
