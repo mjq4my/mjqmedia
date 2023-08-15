@@ -52,7 +52,7 @@ html {
 
 body {
   font-family: "Nunito", sans-serif;
-  background: var(--color-bg);
+  background: var(--color-bg-variant);
   color: white;
   line-height: 1.7;
   background-image: url(../src/images/background14.jpeg);
