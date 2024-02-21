@@ -1,5 +1,6 @@
 # React
-My React website code
+My React website code!
+Run "npm run deploy" to send code to gh-pages (prod).
 
 # Getting Started with Create React App
 
