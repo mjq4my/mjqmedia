@@ -67,7 +67,7 @@ const Experience = () => {
             <article className='experience_details'>
               <HiBadgeCheck className='experience_details-icon'/>
               <div>
-                <h4>Spark</h4>
+                <h4>PySpark</h4>
               </div>
             </article>
 
@@ -87,14 +87,14 @@ const Experience = () => {
             <article className='experience_details'>
               <HiBadgeCheck className='experience_details-icon'/>
               <div>
-                <a target="_blank" href='https://www.credly.com/badges/d4c1434d-1f12-4b8b-8d13-86cbfe69f582/public_url'>AWS Certified Solutions Architect – Associate</a>
+                <a target="_blank" href='https://www.credly.com/badges/d4c1434d-1f12-4b8b-8d13-86cbfe69f582/public_url'>AWS SAA</a>
               </div>
             </article>
 
             <article className='experience_details'>
               <HiBadgeCheck className='experience_details-icon'/>
               <div>
-                <a target="_blank" href='https://www.credly.com/badges/7e07a339-ae08-45b6-8f1a-939c43606820/public_url'>AWS Certified Cloud Practitioner</a>
+                <a target="_blank" href='https://www.credly.com/badges/7e07a339-ae08-45b6-8f1a-939c43606820/public_url'>AWS CCP</a>
               </div>
             </article>
           </div>

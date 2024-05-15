@@ -1,0 +1,23 @@
+.highlight_container{
+    width: "853";
+    height: "480";
+    display: grid;
+    grid-template-columns: 45% 50%;
+    gap: 15%;
+    display: flex;
+    justify-content: center;
+}
+
+/* ############# MEDIA QUERIES (MEDIUM DEVICES e.g. tablets) ############# */
+@media screen and (max-width: 1024px) {
+    .highlight_container {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+}
+
+
+/* ############# MEDIA QUERIES (SMALL DEVICES e.g. phones) ############# */
+@media screen and (max-width: 600px) {
+
+}

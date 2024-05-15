@@ -1,7 +1,8 @@
 header {
     /* height: 100vh; */
+    /* height: 100%; */
     padding-top: 5rem;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .header_container {
@@ -28,6 +29,22 @@ header {
     margin-top: 4rem;
 }
 
+.header_socials a {
+    background: var(--color-black);
+    background: white;
+    color: white;
+    padding: 0.8rem;
+    border-radius: 1.5rem;
+    /* border: 1px solid transparent; */
+    display: flex;
+}
+
+/* .header_socials a:hover {
+    background-color: transparent;
+    color: var(--color-bg);
+    border-color: var(--color-bg);
+} */
+
 .header_socials::after {
     content: "";
     width: 1px;
@@ -36,7 +53,7 @@ header {
 }
 
 .icon {
-    font-size: 3.4rem;
+    font-size: 3rem;
     color: white;
 }
 
