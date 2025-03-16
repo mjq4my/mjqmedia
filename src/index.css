@@ -55,7 +55,7 @@ body {
   background: var(--color-bg-variant);
   color: white;
   line-height: 1.7;
-  background-image: url(../src/images/background16.jpg);
+  background-image: url(../src/images/background.jpg);
 }
 
 /* ############# GENERAL STYLES ############# */
