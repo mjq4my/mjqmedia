@@ -1,0 +1,124 @@
+header {
+    /* height: 100vh; */
+    /* height: 100%; */
+    padding-top: 5rem;
+    /* overflow: hidden; */
+  padding-bottom: 1rem;
+}
+
+.header_container {
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+
+/* ######## CTA ######## */
+.cta {
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+}
+
+/* ######## HEADER SOCIALS ######## */
+.header_socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    position: absolute;
+    margin-top: 4rem;
+}
+
+.header_socials a {
+    background: var(--color-black);
+    background: white;
+    color: white;
+    padding: 0.8rem;
+    border-radius: 1.5rem;
+    /* border: 1px solid transparent; */
+    display: flex;
+}
+
+/* .header_socials a:hover {
+    background-color: transparent;
+    color: var(--color-bg);
+    border-color: var(--color-bg);
+} */
+
+.header_socials::after {
+    content: "";
+    width: 1px;
+    height: 2rem;
+    /* background-color: var(--color-black); */
+}
+
+.icon {
+    font-size: 3rem;
+    color: white;
+}
+
+/* ######## ME ######## */
+.me {
+    /* background-color: var(--color-bg); */
+    /* width: 60rem; */
+    /* width: 80%; */
+    /* height: 40rem; */
+    /* height: 10%; */
+    /* align-items: center; */
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    margin-top: 2rem;
+    overflow: hidden;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    /* margin-left: 20%; */
+    /* align-self: center; */
+    /* display: block; */
+    /* left: calc(50% - 11rem); */
+
+    /* #### CSS just to show the bounds #### */
+    /* border: 2px solid;
+    background-color: #eee   */
+}
+
+/* ######## SCROLL DOWN ######## */
+.scroll_down {
+    position: absolute;
+    font-weight: 300;
+}
+
+/* ############# MEDIA QUERIES (MEDIUM DEVICES e.g. tablets) ############# */
+@media screen and (max-width: 1024px) {
+    header {
+        height: 72vh;
+    }
+    .icon {
+        font-size: 1.5rem;
+    }
+    .header_socials {
+        gap: 2rem;
+        position: absolute;
+        margin-top: 2rem;
+    }
+}
+
+/* ############# MEDIA QUERIES (SMALL DEVICES e.g. phones) ############# */
+@media screen and (max-width: 600px) {
+    header {
+        height: 80vh;
+    }
+    .icon {
+        font-size: 1rem;
+    }
+    .header_socials {
+        gap: 0.8rem;
+        position: absolute;
+        margin-top: 1.5rem;
+    }
+}
+

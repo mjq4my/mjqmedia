@@ -14,7 +14,7 @@ const HeaderSocials = () => {
         <a href='https://open.spotify.com/user/dreqgjl3eu3oyv6guhunlg39y' target="_blank"><RiSpotifyLine className ='icon' color="green"/></a>
         <a href="https://www.youtube.com/migsfigs" target="_blank"><GrYoutube className ='icon' color = "red"/></a>
         <a href="https://www.instagram.com/vibe.ratingz" target="_blank"><BsInstagram className ='icon' color="black"/></a>
-        <a href="https://facebook.com/michael.quinn.921" target="_blank"><FaFacebookSquare className ='icon' color = "blue"/></a>
+        {/* <a href="https://facebook.com/michael.quinn.921" target="_blank"><FaFacebookSquare className ='icon' color = "blue"/></a> */}
     </div>
   )
 }

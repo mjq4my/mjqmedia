@@ -10,26 +10,26 @@
     aspect-ratio: 1/1;
     border-radius: 2rem;
 
-    background: linear-gradient(
+    /* background: linear-gradient(
         45deg,
         transparent,
         var(--color-primary)
-    );
+    ); */
 
     display: grid;
     place-items: center;
 }
 
 .about_me-image {
-    border-radius: 2rem;
+    border-radius: 1rem;
     overflow: hidden;
-    transform: rotate(4deg);
-    transition: var(--transition);  /* time it takes to rotate */
+    /* transform: rotate(4deg); */
+    /* transition: var(--transition); */
 }
 
-.about_me-image:hover {
+/* .about_me-image:hover {
     transform: rotate(0);
-}
+} */
 
 .about_cards {
     display: grid;
