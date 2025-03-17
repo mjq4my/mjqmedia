@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.17968896.css",
+    "main.js": "/static/js/main.b845c2f3.js",
+    "static/media/mq_antarctica.jpeg": "/static/media/mq_antarctica.383264222c902c7fe374.jpeg",
+    "static/media/grandcanyon01.jpeg": "/static/media/grandcanyon01.ca98d1fa53194108f5fa.jpeg",
+    "static/media/background.jpg": "/static/media/background.4bdcf4d81b39ce5b6c34.jpg",
+    "static/media/file.pdf": "/static/media/file.c0324587d6771b275a75.pdf",
+    "index.html": "/index.html",
+    "main.17968896.css.map": "/static/css/main.17968896.css.map",
+    "main.b845c2f3.js.map": "/static/js/main.b845c2f3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.17968896.css",
+    "static/js/main.b845c2f3.js"
+  ]
+}
