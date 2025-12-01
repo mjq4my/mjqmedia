@@ -56,7 +56,7 @@ input, textarea {
     font-family: Monospace;
 }
 
-/* ############# MEDIA QUERIES (MEDIUM DEVICES e.g. tablets) ############# */
+/* ############# MEDIUM DEVICES e.g. tablets ############# */
 @media screen and (max-width: 1024px) {
     .container.contact_container {
         grid-template-columns: 1fr;
@@ -65,7 +65,7 @@ input, textarea {
 }
 
 
-/* ############# MEDIA QUERIES (SMALL DEVICES e.g. phones) ############# */
+/* ############# SMALL DEVICES e.g. phones ############# */
 @media screen and (max-width: 600px) {
     .container.contact_container {
         width: var(--container-width-sm);

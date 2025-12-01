@@ -49,7 +49,7 @@
     color: var(--color-primary);
 }
 
-/* ############# MEDIA QUERIES (MEDIUM DEVICES e.g. tablets) ############# */
+/* ############# MEDIUM DEVICES e.g. tablets ############# */
 @media screen and (max-width: 1024px) {
     .experience_container {
         grid-template-columns: 1fr;
@@ -67,7 +67,7 @@
 }
 
 
-/* ############# MEDIA QUERIES (SMALL DEVICES e.g. phones) ############# */
+/* ############# SMALL DEVICES e.g. phones ############# */
 @media screen and (max-width: 600px) {
     .experience_container {
         gap: 1rem;
