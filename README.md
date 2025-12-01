@@ -1,6 +1,6 @@
 # MJQ Media
 
-I created this project to refine my web development skills and provide myself with an online platform to share my interests.
+I created this project to refine my web development skills and provide myself with an online platform to showcase my skills and interests.
 
 Special thanks to EGATOR and [his tutorial](https://www.youtube.com/watch?v=G-Cr00UYokU&t=5512s) for helping me lay the groundwork.
 

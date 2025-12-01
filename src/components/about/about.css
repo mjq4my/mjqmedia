@@ -82,6 +82,12 @@
     font-size: 1.4rem;
 }
 
+.whoiam > p {
+    margin: 2rem 0 2.6rem;
+    color: var(--color-primary);
+    font-style: italic;
+}
+
 /* ############# MEDIA QUERIES (MEDIUM DEVICES e.g. tablets) ############# */
 @media screen and (max-width: 1024px) {
     .about_container {
@@ -118,5 +124,19 @@
 
     .about_content p {
         margin: 1.5rem 0;
+    }
+
+    /* Make the whoiam text smaller and add extra spacing from the cards on small screens */
+    .whoiam {
+        margin: 5rem 2rem 3.5rem;
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .whoiam > p {
+        margin: 1rem 0;
+        color: var(--color-primary);
+        font-style: italic;
+        line-height: 1.5;
     }
 }

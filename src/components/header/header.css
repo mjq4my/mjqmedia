@@ -8,7 +8,7 @@
   /* border-bottom: 2px solid #ccc; */
   text-align: center;
   display: flex;
-  justify-content: flex-start; /* Align items to the left */
+  justify-content: space-between; /* left and right groups */
   align-items: center;
   padding-left: 3rem;
   gap: 60px;
@@ -16,6 +16,45 @@
   /* font-weight: bold; */
   font-size: 24px;
   font-family: "Noto Serif", sans-serif;
+}
+
+/* To create space between left-aligned links and right-aligned socials */
+.spacer {
+  flex: 1 1 auto;
+}
+
+.header_socials {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.header_socials a {
+  color: var(--color-primary-variant);
+  /* color: var(--color-text, #fff); */
+  font-size: 1.1rem;
+  display: inline-flex;
+  align-items: center;
+}
+
+.header > a {
+  color: var(--color-primary-variant);
+  text-decoration: none;
+  margin-right: 1.5rem;
+}
+
+/* Nav link styling (Home / Blog) */
+.nav-link {
+  color: var(--color-primary-variant);
+  text-decoration: none;
+  margin-right: 1.5rem;
+  padding-bottom: 2px;
+}
+
+.nav-link.active {
+  text-decoration: underline;
+  text-underline-offset: 6px;
+  font-weight: 600;
 }
 
 @media screen and (max-width: 1024px) {

@@ -2,7 +2,8 @@ import React from "react";
 import "./experience.css";
 import { HiBadgeCheck } from "react-icons/hi";
 
-const skills = ["GCP", "AWS", "Python", "Java", "Terraform", "SQL"];
+const languages = ["Python", "Java", "Terraform", "SQL", "Linux", "PySpark"];
+const services = ["GCP", "AWS", "Airflow", "dbt", "Astronomer", "Postgres"];
 const certs = [
   {
     cert_name: "GCP ACE",
@@ -28,10 +29,11 @@ const Experience = () => {
       <h2>My Experience</h2>
 
       <div className="container experience_container">
-        <div className="experience_software">
-          <h3>Technical Skills</h3>
+
+        <div className="experience_languages">
+          <h3>Languages</h3>
           <div className="experience_content">
-            {skills.map((skill, index) => (
+            {languages.map((skill, index) => (
               <article className="experience_details" key={index}>
                 <HiBadgeCheck className="experience_details-icon" />
                 <div>
@@ -41,7 +43,19 @@ const Experience = () => {
             ))}
           </div>
         </div>
-
+        <div className="experience_services">
+          <h3>Services</h3>
+          <div className="experience_content">
+            {services.map((skill, index) => (
+              <article className="experience_details" key={index}>
+                <HiBadgeCheck className="experience_details-icon" />
+                <div>
+                  <h4>{skill}</h4>
+                </div>
+              </article>
+            ))}
+          </div>
+        </div>
         <div className="experience_certifications">
           <h3>Certifications</h3>
           <div className="experience_content">
@@ -61,6 +75,7 @@ const Experience = () => {
             ))}
           </div>
         </div>
+        
       </div>
     </section>
   );

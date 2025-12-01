@@ -1,0 +1,51 @@
+/* Blog page styles */
+.blog-page {
+	padding: 2rem 1rem;
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+.blog-page h2 {
+	margin-bottom: 0.5rem;
+}
+
+.post {
+	margin: 2rem 0;
+	padding: 1rem;
+	background: var(--color-surface, rgba(255,255,255,0.03));
+	border-radius: 8px;
+}
+
+.post h3 {
+	margin-top: 0;
+}
+
+.post code {
+	background: rgba(0,0,0,0.1);
+	padding: 0.1rem 0.3rem;
+	border-radius: 4px;
+}
+
+/* Ensure embeds take full width within posts */
+.post .embed {
+	margin: 1rem 0;
+}
+
+/* Framed post: title and media share the same `.embed` frame */
+.post-embed {
+	margin: 1.5rem 0;
+}
+
+.post-embed .post-content {
+	padding: 0.4rem 0.6rem 0.6rem;
+}
+
+.post-embed .post-content h3 {
+	margin: 0;
+	color: var(--color-primary);
+}
+
+.post-embed .embed-inner {
+	/* keep embed media flush with the frame's inner edge */
+	margin-top: 0.6rem;
+}

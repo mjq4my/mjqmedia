@@ -1,8 +1,10 @@
 import React from 'react'
 import './about.css'
-import me from '../../images/mq_antarctica.jpeg'
+import me from '../../images/about.jpeg'
 // import {MdWork} from 'react-icons/md'
 import {ImList2} from 'react-icons/im'
+import {BsLinkedin} from 'react-icons/bs'
+import {BsGithub} from 'react-icons/bs'
 import {HiMusicNote} from 'react-icons/hi'
 import {GrYoutube} from 'react-icons/gr'
 
@@ -30,10 +32,26 @@ const About = () => {
               </article>
             </a>
 
+            <a href='https://linkedin.com/in/michael-quinn33' target="_blank">
+              <article className='about_card'>
+                <BsLinkedin className='about_icon'/>
+                <h5>LinkedIn</h5>
+                <small>Click On Me</small>
+              </article>
+            </a>
+
             <a href='https://instagram.com/vibe.ratingz' target="_blank">
               <article className='about_card'>
                 <HiMusicNote className='about_icon'/>
                 <h5>Music Blog</h5>
+                <small>Click On Me</small>
+              </article>
+            </a>
+
+            <a href='https://github.com/mjq4my' target="_blank">
+              <article className='about_card'>
+                <BsGithub className='about_icon'/>
+                <h5>GitHub</h5>
                 <small>Click On Me</small>
               </article>
             </a>
@@ -52,8 +70,8 @@ const About = () => {
 
       <div className='whoiam'>
         <p>
-          Hello, my name is Michael Quinn and welcome to my personal website!
-          I built this using React, Github, and by following online tutorials. I want to use it
+          Hi! I'm Michael Quinn and this is my personal website!
+          I built this using React, Github, and referencing online tutorials and AI. I want to use it
           to showcase my hobbies, as well as a means for communication. It is always a work
           in progress, and I hope you find what you're looking for!
         </p>

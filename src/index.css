@@ -131,7 +131,7 @@ img {
   object-fit: cover ;
 }
 
-/* ############# MEDIA QUERIES (MEDIUM DEVICES) ############# */
+/* ############# MEDIUM DEVICES ############# */
 @media screen and (max-width: 1024px) {
   .container {
     width: var(--container-width-md);
@@ -142,7 +142,7 @@ img {
   }
 }
 
-/* ############# MEDIA QUERIES (SMALL DEVICES) ############# */
+/* ############# SMALL DEVICES ############# */
 @media screen and (max-width: 600px) {
   .container {
     width: var(--container-width-sm);
@@ -150,5 +150,10 @@ img {
 
   section > h2 {
     margin-bottom: 2rem;
+  }
+
+  /* Reduce vertical spacing between stacked sections on small screens */
+  section {
+    margin-top: 1rem;
   }
 }

@@ -1,6 +1,6 @@
 import React from 'react'
 import './highlight.css'
-import me from '../../images/mq_antarctica.jpeg'
+import me from '../../images/about.jpeg'
 // import {MdWork} from 'react-icons/md'
 import {ImList2} from 'react-icons/im'
 import {HiMusicNote} from 'react-icons/hi'
